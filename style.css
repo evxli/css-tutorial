@@ -1,0 +1,18 @@
+h1 {
+    color: teal
+}
+
+#main-nav {
+    background-color: lightgrey;
+    padding: 1px;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline;
+}
+
+.artist-list-item {
+    display: inline;
+    color: red;
+}

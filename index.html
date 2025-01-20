@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Favorite Artists</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header section with a title and navigation links -->
     <header>
       <h1>My Music World</h1>
       <!-- Use CSS to set font size, text alignment, and margin -->
-      <nav>
+      <nav id="main-nav">
         <ul>
           <!-- Use CSS to make the list horizontal: set display to flex or inline, and add gap or margin for spacing -->
           <li><a href="#artists">Artists</a></li>
@@ -37,25 +38,25 @@
       <section>
         <h2>Favorite Artists</h2>
         <article>
-          <h3>Artist Name</h3>
+          <h3>SZA</h3>
           <!-- Add bottom margin and bold font style -->
           <p>
             This artist is known for their amazing vocals and creative lyrics.
           </p>
           <ul>
-            <li>Album 1</li>
+            <li class="artist-list-item">SOS Deluxe: LANA</li>
             <!-- Add spacing between list items and style bullet points -->
-            <li>Album 2</li>
-            <li>Album 3</li>
+            <li class="artist-list-item">SOS</li>
+            <li class="artist-list-item">Ctrl</li>
           </ul>
         </article>
         <article>
-          <h3>Another Artist</h3>
+          <h3>Jayla Darden</h3>
           <p>This artist blends genres to create a unique sound.</p>
           <ul>
-            <li>Album A</li>
-            <li>Album B</li>
-            <li>Album C</li>
+            <li>Ideas: Vol. 2</li>
+            <li>MOMENTUM</li>
+            <li>Onto Something</li>
           </ul>
         </article>
       </section>
@@ -64,10 +65,10 @@
       <section>
         <h2>Favorite Genres</h2>
         <ul>
-          <li data-popularity="high">Pop</li>
+          <li data-popularity="high">R&B</li>
           <!-- Use attribute selectors to style items based on data-popularity -->
           <li data-popularity="medium">Rock</li>
-          <li data-popularity="low">Jazz</li>
+          <li data-popularity="low">Pop</li>
         </ul>
       </section>
 
@@ -79,9 +80,9 @@
           <h3>Chill Vibes</h3>
           <p>Perfect for relaxing evenings.</p>
           <ul>
-            <li>Song 1</li>
-            <li>Song 2</li>
-            <li>Song 3</li>
+            <li>Luther (ft. sza)</li>
+            <li>U H.E.R.</li>
+            <li>Crocodile Tears Col3trane</li>
           </ul>
         </div>
         <div class="playlist">
@@ -89,9 +90,9 @@
           <h3>Workout Mix</h3>
           <p>Get pumped with these tracks!</p>
           <ul>
-            <li>Track A</li>
-            <li>Track B</li>
-            <li>Track C</li>
+            <li>SMACK TALK ISOKNOCK</li>
+            <li>Majesty Apashe</li>
+            <li>Do or Die DPR Arctic</li>
           </ul>
         </div>
       </section>
